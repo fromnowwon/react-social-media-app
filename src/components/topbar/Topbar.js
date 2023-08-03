@@ -2,7 +2,11 @@ import './topbar.css';
 
 const Topbar = () => {
 	return (
-		<div>Topbar</div>
+		<div className='topbarContainer'>
+			<div className="topbarLeft">
+				
+			</div>
+		</div>
 	)
 }
 
