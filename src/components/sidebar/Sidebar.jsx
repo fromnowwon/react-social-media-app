@@ -53,6 +53,14 @@ const Sidebar = () => {
             <span className="sidebarListItemText">Courses</span>
           </li>
         </ul>
+				<button className='sidebarButton'>Show more</button>
+				<hr className='sidebarHr' />
+				<ul className="sidebarFriendList">
+					<li className="sidebarFriend">
+						<img className='sidebarFriendImg' src="/assets/person/2.jpeg" alt="" />
+						<span className="sidebarFriendName">Jane Doe</span>
+					</li>
+				</ul>
 			</div>
 		</div>
 	)
